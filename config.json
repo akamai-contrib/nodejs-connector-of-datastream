@@ -1,0 +1,22 @@
+{
+    "edgerc":{
+        "path": "/Users/sbharadw/.edgerc",
+        "section": "edgeworld-ds1",
+        "debug": false
+    },
+    "datastream":{
+        "streamId": "1498"
+    },
+    "influxdb":{
+        "active": false,
+        "host": "localhost",
+        "port": "32771",
+        "username": "admin",
+        "password": "admin",
+        "database": "edgeworld"
+    },
+    "prometheus":{
+        "active": true,
+        "pushGateway": "http://localhost:9091/"
+    }
+}
