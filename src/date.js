@@ -2,11 +2,13 @@ const moment = require('moment');
 
 class DateRange{
     getStartDate(){
-        return this._format(moment.utc().subtract(2, 'minute').toDate());
+        // return this._format(moment.utc().subtract(3, 'hour').toDate());
+        return this._format(moment.utc().subtract(9, 'hour').toDate());
     }
 
     getEndDate(){
-        return this._format(moment.utc().subtract(1, 'minute').toDate());
+        // return this._format(moment.utc().subtract(1, 'minute').toDate());
+        return this._format(moment.utc().subtract(3, 'hour').toDate());
     }
 
     _format(date){

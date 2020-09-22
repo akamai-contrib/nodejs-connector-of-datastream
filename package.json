@@ -1,7 +1,15 @@
 {
+  "name": "datastream-exporter",
+  "version": "0.1.0",
+  "author": "Vincent Norguet <vnorguet_ext@christiandior.com>",
+  "original_source_repository": "https://github.com/akamai-contrib/nodejs-connector-of-datastream",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "private": true,
   "dependencies": {
-    "edgegrid": "^3.0.6",
-    "influx": "^5.0.7",
+    "edgegrid": "^3.0.8",
     "moment": "^2.24.0",
     "prettyjson": "^1.2.1",
     "prom-client": "^11.3.0"

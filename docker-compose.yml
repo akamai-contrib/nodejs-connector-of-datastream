@@ -1,3 +1,4 @@
+---
 version: '3'
 
 services:
@@ -9,7 +10,7 @@ services:
   prometheus:
     image: prom/prometheus
     volumes:
-     - ./prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
     ports:
       - "9090:9090"
     network_mode: bridge

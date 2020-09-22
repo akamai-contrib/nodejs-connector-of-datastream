@@ -18,7 +18,7 @@ After that install the required node dependencies by running `npm install`.
 
 ## 2. Configuration
 
-There is a config file `config.js` in the root of the project. Make sure you update the config information to match your setup.
+There is a config file `.env.sample` in the root of the project. Copy and fill it with your own data.
 
 ## 3. Run the scraping job
 
