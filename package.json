@@ -2,7 +2,7 @@
   "dependencies": {
     "edgegrid": "^3.0.6",
     "influx": "^5.0.7",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "prettyjson": "^1.2.1",
     "prom-client": "^11.3.0"
   },
